@@ -1,6 +1,6 @@
-# minecraft-api
+# minecraft-api [![](https://jitpack.io/v/OvercastNetwork/minecraft-api.svg)](https://jitpack.io/#OvercastNetwork/minecraft-api)
 
-Shared interfaces for the SportBukkit and BungeeCord (OCN fork) APIs
+Shared interfaces for the [SportBukkit](https://github.com/OvercastNetwork/SportBukkit) and [BungeeCord](https://github.com/OvercastNetwork/BungeeCord) (OCN fork) APIs
 
 These interfaces can be used to write hybrid code that works with both APIs.
 Currently, the following things are implemented, roughly speaking:
@@ -25,6 +25,17 @@ Possible future additions:
   * Scoreboard
   * Tab list
 
-https://github.com/OvercastNetwork/BungeeCord
+```xml
+  <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+  </repository>
+```
 
-https://github.com/OvercastNetwork/SportBukkit
+```xml
+<dependency>
+    <groupId>com.github.OvercastNetwork</groupId>
+    <artifactId>minecraft-api</artifactId>
+    <version>master-SNAPSHOT</version>
+</dependency>
+```
